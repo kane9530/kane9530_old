@@ -2,7 +2,7 @@
 title:               "Kane Toh"
 tagline:             'My Tagline'
 description:         "Kane's blog"
-url:                 'https://kane9530.github.io/'
+url:                 'https://kane9530.github.io'
 baseurl:             ''
 paginate:            5
 permalink:           pretty
