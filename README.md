@@ -1,8 +1,7 @@
-## kane9530.github.io
+## kane9530.github.io [![HitCount](http://hits.dwyl.com/kane9530/kane9530githubio.svg?style=flat)](http://hits.dwyl.com/kane9530/kane9530githubio)
 
 This is Kane's personal website.
 
-[![HitCount](http://hits.dwyl.com/kane9530/kane9530githubio.svg?style=flat)](http://hits.dwyl.com/kane9530/kane9530githubio)
 
 ### Lanyon by [Mark Otto](https://github.com/mdo)
 
