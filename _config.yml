@@ -1,6 +1,6 @@
 # Setup
 title:               "Kane Toh"
-tagline:             'My Tagline'
+tagline:             'My awesome blog'
 description:         "Kane's blog"
 url:                 'https://kane9530.github.io'
 baseurl:             ''
@@ -11,7 +11,15 @@ permalink:           pretty
 author:
   name:              Kane Toh
   url:               https://twitter.com/kane953o
-  email:             kane9530@hotmail.com
+  email:             kane9530[at]hotmail[dot]com
+  email_md5:         90bad37d2c9d86d5a23f88ffc7a0feab
+  email_altmd5:      0582a50ad78fa1daf85629b93820e35a
+  disqus_shortname:  kanetoh
+  bio:               Research Fellow (Bioinformatics) at Cancer Science Institute, National University of Singapore
+  github:            kane9530
+  twitter:           kane953o
+  linkedin:          kane-toh
+  goodreads:         kane9530
 
 # Gems
 plugins:
