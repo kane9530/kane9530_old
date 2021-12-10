@@ -3,7 +3,9 @@ layout: page
 title: About
 ---
 
-<p>I work to integrate neuroscience, medicine, computer science and public policy. If you like, you can follow me on
-  twitter <a href="https://twitter.com/{{ site.author.twitter }}">@kane953o</a>.</p>
+## Work 
 
-<p>Periodically, I write stuff: <a href="{{site.baseurl}}/blog">blog</a></p>
+My name is Kane Toh (Chinese: 秦全). I am an incoming postdoctoral research fellow in Bioinformatics at the Cancer Science Institute (CSI), National University of Singapore. I obtained my Ph.D. in Genetics at the University of Cambridge where I worked with Dr. Ben Steventon in the [Steventon Lab](https://steventonlab.wordpress.com/).
+
+ 
+
