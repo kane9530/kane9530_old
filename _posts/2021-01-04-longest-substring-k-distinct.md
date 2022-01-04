@@ -59,11 +59,11 @@ We can identify that this is the technique of choice because:
  
 ## Strategy
 
-1. Expansion phase - incrementing `end_pointer` 
+Expansion phase - incrementing `end_pointer` 
 
-With `start_pointer` and `end_pointer` initialised at the first character of `S`, the sliding window is expanded until we meet the condition *k = K*. This expansion is carried out by an outer for loop which increments the index of `end_pointer`, thus dragging it rightwards whilst the `start_pointer` is held in place. Once the condition is exceeded (*k = K+1*), we enter the conditional contraction phase.
+With `start_pointer` and `end_pointer` initialised at the first character of `S`, the sliding window is expanded until we meet the condition *k = K*. This expansion is carried out by an outer for loop which increments the index of `end_pointer`, thus dragging it rightwards whilst the `start_pointer` is held in place. Once the condition is exceeded (*k = K+1*), we enter the shrinkage phase.
 
-2. Shrinkage phase - incrementing `start_pointer`
+Shrinkage phase - incrementing `start_pointer`
 
 In this phase, the sliding window is shrinked until we meet the condition *k = K*. This shrinkage is carried out by an inner *while loop* which increments the index of `start_pointer` thus dragging it rightwards. Once the condition is again reached (*k = K*), we return to the greedy expansion phase, with `start_pointer` at the newly incremented index position. 
 
