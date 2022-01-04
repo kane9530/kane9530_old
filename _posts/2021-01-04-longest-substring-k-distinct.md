@@ -65,7 +65,7 @@ With `start_pointer` and `end_pointer` initialised at the first character of `S`
 
 Shrinkage phase - incrementing `start_pointer`
 
-In this phase, the sliding window is shrinked until we meet the condition *k = K*. This shrinkage is carried out by an inner *while loop* which increments the index of `start_pointer` thus dragging it rightwards. Once the condition is again reached (*k = K*), we return to the greedy expansion phase, with `start_pointer` at the newly incremented index position. 
+In this phase, the sliding window is shrinked until we meet the condition *k = K* again. This shrinkage is carried out by an inner *while loop* which increments the index of `start_pointer` in method 2a thus dragging it rightwards. Method 2b employs a different approach, using a conditional clause that directly removes the dictionary key that maps to the lowest index. Regardless, once the condition is again reached (*k = K*), we return to the greedy expansion phase with `start_pointer` at the newly incremented index position. 
 
 Stopping condition: When the `end_pointer` tries to point to an index greater than the length of string `S`. This means that the entire string `S` has been traversed.
 
@@ -150,7 +150,7 @@ def longestKSubstr(self, s, k):
        	# If we exceed the condition
        	# Search for the smallest index and remove the character
        	# Note that for identical characters, 
-       	# only the most recent character index is kept
+       	# only the most recent /largest character index is kept
        	
         if len(mydict) > k:
             min_left = min(mydict.values())
