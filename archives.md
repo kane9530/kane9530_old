@@ -9,7 +9,8 @@ title: Archives
   * {{ post.date | date_to_string }} &raquo; [ {{ post.title }} ]({{ post.url }})
 {% endfor %} -->
 
-{% for post in site.posts %}
+{% for post in site.posts reversed %}
+
 <div>
   <span style="float: left;"><a href="{{ post.url }}">{{ post.title }}</a></span>
   <span style="float: right;">{{ post.date | date_to_string }}</span>
