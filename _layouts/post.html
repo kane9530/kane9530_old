@@ -32,12 +32,12 @@ layout: default
       {% assign words_code = words_total | minus: words_without_code | divided_by: 2.0 %}
       {% assign words_math = words_total | minus: words_without_math | times: 2.0 %}
       {% assign words = words_without_either | plus: words_code | plus: words_math | round %}
-
       {% assign ert = words | divided_by:250 | at_least: 1 %}
       Est Read time: {{ ert }} min
     </span>
   </span>
-  {{ content | toc }}
+  {% include toc.html html=content %}
+  {{content}}
 </div>
 
 {% if site.related_posts.size >= 1 %}
