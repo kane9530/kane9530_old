@@ -65,10 +65,11 @@
       </span>
     </a>
   </div>
-
+<!--
   <div class="sidebar-item">
     <p>{{ site.description }}</p>
   </div>
+-->
 
   <nav class="sidebar-nav">
     <a class="sidebar-nav-item{% if page.url == site.baseurl %} active{% endif %}" href="{{ site.baseurl }}/">Home</a>
@@ -94,11 +95,13 @@
 
   <div class="sidebar-item">
     <p>
-      &copy; {{ site.time | date: '%Y' }}. {{ site.author.name }}.
+      &copy; {{ site.time | date: '%Y' }} {{ site.author.name }}.
       <br>
-      Made with <i class="fa fa-heart red-color"></i> on <a href="http://jekyllrb.com"><span style="color:whitesmoke">{
-          { Jekyll }
-          }</a></span>
+      Made with <i class="fa fa-heart red-color"></i> on <a href="http://jekyllrb.com"><span style="color:whitesmoke">
+          Jekyll.
+          </a></span>
+      <br>
+      Also, thanks ChatGPT.
     </p>
   </div>
 </div>

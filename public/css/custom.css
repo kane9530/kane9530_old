@@ -1,9 +1,9 @@
 .sidebar {
-	opacity: 0.8;
+	opacity: 1.0;
 }
 
 .sidebar:hover {
-	opacity: 1.0;
+	opacity: 0.95;
 }
 
 .sidebar-logo {
@@ -14,10 +14,31 @@
 	border-radius: 50%;
 	-moz-border-radius: 50%;
 	-webkit-border-radius: 50%;
-	width: 200px;
+	width: 300px;
 	margin: 0 auto;
 }
 
 .red-color {
     color:red;
     }
+
+#contact-list a + a {
+  margin-left: 2em;
+}
+
+.fa-stack {
+  transition: transform 0.2s ease-in-out; /* add a smooth transition effect */
+}
+
+.fa-stack:hover {
+  transform: scale(1.2);
+}
+
+#contact-list a:hover {
+  text-decoration: none;
+}
+
+.toc ul ul li {
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+}

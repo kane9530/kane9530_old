@@ -1,0 +1,8 @@
+{
+    "editor.tabCompletion": "on",
+    "editor.suggest.snippetsPreventQuickSuggestions": false,
+    "[markdown]": {
+        "editor.suggest.snippetsPreventQuickSuggestions": false,
+        "editor.snippetSuggestions": "top"
+    }
+}
